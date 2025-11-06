@@ -1,4 +1,4 @@
-# Customer Support Insights & RCA Analytics (Mock Project)
+# Customer Support Insights & RCA Analytics
 
 Files included:
 - data_cleaning.py: cleans mock CSVs and outputs cleaned files.
