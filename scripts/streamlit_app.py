@@ -9,7 +9,7 @@ st.set_page_config(layout="wide", page_title="Customer Support Insights & RCA (P
 st.title("Customer Support Insights & RCA Analytics (Mock Data)")
 
 @st.cache_data
-def load_cleaned_data(base_path='/Users/bharathmahesh/Desktop/CSI/Data'):
+def load_cleaned_data(base_path='/Data'):
     tickets = pd.read_csv(f'{base_path}/cleaned_support_tickets.csv', parse_dates=['created_date'])
     calls = pd.read_csv(f'{base_path}/cleaned_call_logs.csv', parse_dates=['call_date'])
     feedback = pd.read_csv(f'{base_path}/cleaned_feedback.csv')
